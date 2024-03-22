@@ -1,0 +1,72 @@
+
+
+.fspac{
+    height: 80vh;
+}
+
+.fimages{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    color: white;
+
+}
+.fleft{
+    width: 45%;
+    height: inherit;
+  
+    /* overflow: hidden; */
+}
+.fleftelme{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2vh 5vh;
+    /* line-height: 1; */
+}
+.fleftelme h1 {
+    font-size: 5vw;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: block;
+}
+
+.fleftelme h5 {
+    font-size: 1vw;
+    font-weight: 200;
+    margin-bottom: 1vw;
+}
+.fright{
+    width: 45%;
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.fphotos{
+    width: 80%;
+    height: 80%;
+    position: relative;
+}
+.fphoto{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+

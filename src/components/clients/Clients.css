@@ -1,0 +1,70 @@
+.clients {
+    text-align: center;
+    color: white;
+    margin-top: 7vw;
+
+    position: relative;
+}
+
+.clients h1 {
+    font-size: 6vw;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.clients h5 {
+    font-size: 1vw;
+    font-weight: 200;
+    margin-bottom: 1vw;
+}
+
+.clientsreview {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 7vw 10vw;
+}
+
+.clientsreviewImage {
+    width: 47%;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.clientsreviewImageLeft {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+}
+
+.siteimage {
+    width: 100%;
+    aspect-ratio: 1/1.2;
+    object-fit: cover;
+}
+
+.clientsreviewText {
+    width: 47%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: start;
+}
+
+.siteimageDp {
+    position: absolute;
+    bottom: 0;
+}
+
+.clientsreviewImageLeft>.bubble {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, .5))
+}   
+
+.clientsreviewText{
+    font-size: 1vw;
+}

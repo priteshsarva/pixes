@@ -1,0 +1,63 @@
+.about {
+    text-align: center;
+    color: white;
+    margin-top: 7vw;
+    height: 100vh;
+    position: relative;
+}
+
+.about h1 {
+    font-size: 6vw;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.about h5 {
+    font-size: 1vw;
+    font-weight: 200;
+    margin-bottom: 1vw;
+}
+.bubble{
+    width: 10vw;
+    position: absolute;
+   
+}
+.bubbleImage img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.bubbletext{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.bubbletext span:nth-child(1){
+    font-size: 1.5vw;
+}
+.bubbletext span:nth-child(2){
+    font-size: 1vw;
+    opacity: .8;
+}
+.first{
+    top: 12vw;
+    left: 14vw;
+}
+.second{
+    bottom:4vw;
+    right: 14vw;
+}
+.third{
+    top: 15vw;
+    right: 20vw;
+}
+.fourth{
+    bottom: 5vw;
+    left: 30vw;
+}
+.center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1.5);
+}
