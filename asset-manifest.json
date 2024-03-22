@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pixes/static/css/main.e069b85d.css",
+    "main.js": "/pixes/static/js/main.dd0955a2.js",
+    "static/media/wave-2.png": "/pixes/static/media/wave-2.6c366bc964eaae96141a.png",
+    "static/media/wave-1.png": "/pixes/static/media/wave-1.1ad4e69955ea63192a09.png",
+    "index.html": "/pixes/index.html",
+    "main.e069b85d.css.map": "/pixes/static/css/main.e069b85d.css.map",
+    "main.dd0955a2.js.map": "/pixes/static/js/main.dd0955a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e069b85d.css",
+    "static/js/main.dd0955a2.js"
+  ]
+}
